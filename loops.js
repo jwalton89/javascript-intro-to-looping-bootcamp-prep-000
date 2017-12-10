@@ -22,6 +22,5 @@ function maybeTrue() {
 
 do {
   array.shift()
-  return array 
  } while (array.length > 0 && maybeTrue());
  return array
