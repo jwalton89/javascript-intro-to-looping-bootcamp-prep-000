@@ -9,7 +9,8 @@ return array
 }
 }
 
-let countdown = n
-while (countdown > 0) {
+function whileLoop(n) {
+  while (n > 0) {
   console.log(--countdown)
+}
 }
